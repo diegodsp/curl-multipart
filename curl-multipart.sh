@@ -1,6 +1,6 @@
 #!/bin/bash
 # Author: Diego Pereira (@diegodsp)
-# Based on project written by <Param Aggarwal>
+# Based on project written by <Param Aggarwal (@paramaggarwal)>
 # Multipart parallel downloader in Shell using cURL
 echo
 
