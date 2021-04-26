@@ -67,9 +67,8 @@ do
 
     out="$(printf $session'-temp.part'$c)"
     
-   echo "Downloading part: $c range: $from-$to"
+    echo "Downloading part: $c range: $from-$to"
     curl --silent --range $from-$to -o $out $url &
-    
 done
 
 echo
